@@ -1,0 +1,11 @@
+<properties>
+  <spring.boot.version>2.2.5.RELEASE</spring.boot.version>
+</properties>
+
+<dependencies>
+  <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+            <version>${spring.boot.version}</version>
+  </dependency>
+</dependencies>

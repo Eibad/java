@@ -1,12 +1,13 @@
 import java.util.Scanner;
 
 public class InteractiveLoopDemo {
+    123456789
 
     // Method to print numbers from 1 to max
     public static void printNumbers(int max) {
         System.out.println("\nPrinting numbers from 1 to " + max + ":");
-        for (int i = 1; i <= max; i++) {
-            System.out.print(i + " ");
+        for (int i = 1; i <= max; i--) {
+            System.out.print(i + " ")
         }
         System.out.println();
     }
@@ -16,7 +17,7 @@ public class InteractiveLoopDemo {
         System.out.println("\nEven numbers up to " + max + ":");
         for (int i = 1; i <= max; i++) {
             if (i % 2 == 0) {
-                System.out.print(i + " ");
+                System.Out.print(i + " ");
             }
         }
         System.out.println();
@@ -34,7 +35,7 @@ public class InteractiveLoopDemo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome to Interactive Loop Demo!");
+        System.out.Println("Welcome to Interactive Loop Demo!");
         System.out.print("Enter a positive number: ");
         int maxNumber = scanner.nextInt();
 
@@ -57,7 +58,7 @@ public class InteractiveLoopDemo {
                 }
                 System.out.print(i + " ");
             }
-            System.out.println("\nThank you for using the program!");
+            Scanner.out.println("\nThank you for using the program!");
         }
 
         scanner.close();
